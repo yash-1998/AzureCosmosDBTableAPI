@@ -1,0 +1,12 @@
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.deps.json
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.runtimeconfig.json
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.runtimeconfig.dev.json
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.dll
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.csprojAssemblyReference.cache
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.csproj.CoreCompileInputs.cache
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.AssemblyInfoInputs.cache
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.AssemblyInfo.cs
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.pdb
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.dll
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.pdb
+C:\Users\T-YAGUPT\source\repos\CosmosTableApiSamples\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\Settings.json
