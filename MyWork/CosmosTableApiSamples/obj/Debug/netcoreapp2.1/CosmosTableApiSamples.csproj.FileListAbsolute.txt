@@ -1,0 +1,12 @@
+E:\MyWork\MyWork\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\Settings.json
+E:\MyWork\MyWork\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.deps.json
+E:\MyWork\MyWork\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.runtimeconfig.json
+E:\MyWork\MyWork\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.runtimeconfig.dev.json
+E:\MyWork\MyWork\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.dll
+E:\MyWork\MyWork\CosmosTableApiSamples\bin\Debug\netcoreapp2.1\CosmosTableApiSamples.pdb
+E:\MyWork\MyWork\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.csprojAssemblyReference.cache
+E:\MyWork\MyWork\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.csproj.CoreCompileInputs.cache
+E:\MyWork\MyWork\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.AssemblyInfoInputs.cache
+E:\MyWork\MyWork\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.AssemblyInfo.cs
+E:\MyWork\MyWork\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.dll
+E:\MyWork\MyWork\CosmosTableApiSamples\obj\Debug\netcoreapp2.1\CosmosTableApiSamples.pdb

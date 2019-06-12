@@ -13,7 +13,6 @@ namespace CosmosTableApiSamples.Model
             this.PartitionKey = partitionKey;
             this.RowKey = rowKey;
         }
-        public DateTime Datetime { get; set; }
         public string Market { get; set; }
         public int Total_clicks { get; set; }
         public int Match1_clicks { get; set; }

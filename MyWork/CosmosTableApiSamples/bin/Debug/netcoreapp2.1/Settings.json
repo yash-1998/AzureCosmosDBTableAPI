@@ -1,0 +1,3 @@
+{
+  "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=t-yagupt;AccountKey=b1IRJScXELqbbgGYMfkuPwwZayxD7TRsBwOubs61iUW0L4JGKApKpX7yW2qiqh1qFqQjhgl0zhDM3gh36pfJgw==;TableEndpoint=https://t-yagupt.table.cosmos.azure.com:443/;"
+}

@@ -39,7 +39,7 @@ namespace CosmosTableApiSamples
             // Create a table client for interacting with the table service
             CloudTableClient tableClient = storageAccount.CreateCloudTableClient(new TableClientConfiguration());
 
-            Console.WriteLine("Create a Table for the demo");
+            Console.WriteLine("Creating table " + TableName);
 
             // Create a table client for interacting with the table service 
             CloudTable table = tableClient.GetTableReference(TableName);

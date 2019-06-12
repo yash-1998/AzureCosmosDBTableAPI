@@ -40,16 +40,47 @@ namespace CosmosTableApiSamples
             }
         }
 
-        public static async Task<SingleEntity> RetrieveEntityUsingPointQueryAsync(CloudTable table, string partitionKey, string rowKey)
+        public static async Task<GenericAnswer> InsertOrMergeEntityAsync(CloudTable table, GenericAnswer entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException("entity");
+            }
+            try
+            {
+                // Create the InsertOrReplace table operation
+                TableOperation insertOrMergeOperation = TableOperation.InsertOrMerge(entity);
+
+                // Execute the operation.
+                TableResult result = await table.ExecuteAsync(insertOrMergeOperation);
+                GenericAnswer insertedAnswer = result.Result as GenericAnswer;
+
+                // Get the request units consumed by the current operation. RequestCharge of a TableResult is only applied to Azure CosmoS DB 
+                if (result.RequestCharge.HasValue)
+                {
+                    Console.WriteLine("Request Charge of InsertOrMerge Operation: " + result.RequestCharge);
+                }
+
+                return insertedAnswer;
+            }
+            catch (StorageException e)
+            {
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+                throw;
+            }
+        }
+
+        public static async Task<Answer> RetrieveEntityUsingPointQueryAsync(CloudTable table, string partitionKey, string rowKey)
         {
             try
             {
-                TableOperation retrieveOperation = TableOperation.Retrieve<SingleEntity>(partitionKey, rowKey);
+                TableOperation retrieveOperation = TableOperation.Retrieve<Answer>(partitionKey, rowKey);
                 TableResult result = await table.ExecuteAsync(retrieveOperation);
-                SingleEntity entity = result.Result as SingleEntity;
+                Answer entity = result.Result as Answer;
                 if (entity != null)
                 {
-                    Console.WriteLine("\t{0}\t{1}\t{2}\t{3}", entity.PartitionKey, entity.RowKey, entity.RawQuery);
+                    Console.WriteLine("\t{0}\t{1}\t{2}\t{3}", entity.PartitionKey, entity.RowKey, entity.Market);
                 }
 
                 // Get the request units consumed by the current operation. RequestCharge of a TableResult is only applied to Azure CosmoS DB 
@@ -68,7 +99,7 @@ namespace CosmosTableApiSamples
             }
         }
 
-        public static async Task DeleteEntityAsync(CloudTable table, SingleEntity deleteEntity)
+        public static async Task DeleteEntityAsync(CloudTable table, Answer deleteEntity)
         {
             try
             {
